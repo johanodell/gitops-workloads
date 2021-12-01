@@ -4,7 +4,7 @@ metadata:
   name: simpson
   labels:
     house: simpsons
-    argocd.argoproj.io/managed-by=openshift-gitops
+    argocd.argoproj.io/managed-by: openshift-gitops
   annotations:
     openshift.io/node-selector: "house=simpsons"
     scheduler.alpha.kubernetes.io/defaultTolerations: '[{"Key": "house", "Operator":"Equal", "Value": "simpsons", "effect": "NoSchedule"}]'
