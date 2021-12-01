@@ -6,4 +6,4 @@ namespace: simpson
 resources:
 - homer.yaml
 - marge.yaml
-- namespace.yaml
+
